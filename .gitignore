@@ -23,3 +23,7 @@ models/StableDiffusion/*
 !models/DreamBooth_LoRA/*.txt
 !models/MotionLoRA/
 !models/MotionLoRA/*.txt
+
+venv/
+xformers-0.0.14.dev0-cp310-cp310-win_amd64.whl
+usage.txt

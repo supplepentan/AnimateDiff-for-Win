@@ -66,7 +66,7 @@ class AnimateController:
         self.pipeline              = None
         self.lora_model_state_dict = {}
         
-        self.inference_config      = OmegaConf.load("configs/inference/inference.yaml")
+        self.inference_config      = OmegaConf.load("configs\inference\inference-v1.yaml")
 
     def refresh_stable_diffusion(self):
         self.stable_diffusion_list = glob(os.path.join(self.stable_diffusion_dir, "*/"))
