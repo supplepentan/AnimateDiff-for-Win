@@ -47,6 +47,7 @@ python -m pip install -r requirements.txt
 Uninstall unnecessary installed Pytorch, and newly install Pytorch (CUDA11.7 compatible model).
 
 ```bash
+python -m pip uninstall -y torch torchvision
 python -m pip install torch==1.13.1 torchvision==0.14.1 --index-url https://download.pytorch.org/whl/cu117
 ```
 
@@ -78,6 +79,10 @@ Download and put the models to folder " models/Motion_Module/ ".
 | mm_sd_v14.ckpt    | 417 M     | 1.6 GB        |
 | mm_sd_v15.ckpt    | 417 M     | 1.6 GB        |
 | mm_sd_v15_v2.ckpt | 453 M     | 1.7 GB        |
+
+### Motion LoRAs
+
+Download and put the models to folder " models/MotionLoRA/ ".
 
 [MotionLoRAs](https://drive.google.com/drive/folders/1EqLC65eR1-W-sGD0Im7fkED6c8GkiNFI)
 
